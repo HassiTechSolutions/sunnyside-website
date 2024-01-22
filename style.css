@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFBF8;
+
+}
+.section1{
+    background-image: url('images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.nav-link{
+    color: #ffffff!important;
+    padding: 0 25px;
+    
+}
+.nav-link:hover{
+    color: #111!important;
+    background-color: #ffffffc6;
+    border-radius: 30px;
+    padding: 0 5px ;
+}
+
+.heading{
+    font-family: Playfair;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+.fa-arrow-down-long{
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    display: block;
+    margin: 100px auto;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 60px;
+}
+.text h1{
+    font-family: playfair;
+    font-weight: bolder;
+}
+.text p{
+    color: #616060;
+}
+.text a{
+    color: #111;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+.img1{
+    background-image: url('images/desktop/image-transform.jpg');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url('images/desktop/image-stand-out.jpg');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url('images/desktop/image-graphic-design.jpg');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img4{
+    background-image: url('images/desktop/image-photography.jpg');
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 300px 30px  50px 30px;
+}
+.txt h2{
+    font-family: playfair;
+    font-weight: bolder;
+}
+.txt p{
+    padding: 0 100px;
+}
+.section5{
+    padding: 80px 0;
+}
+.section5 h4{
+    margin: 50px 0;
+    color: #616060;
+    font-family: playfair;
+    word-spacing: 18px;
+    letter-spacing: 4px;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.testimonial img{
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+}
+.testimonial p{
+    margin: 50px 0;
+    padding: 0 20px;
+}
+.testimonial h5{
+    font-family: playfair;
+    font-weight: bolder;
+}
+.testimonial span{
+    color: #616060;
+}
+
+.first{
+    background-image: url('images/desktop/image-gallery-milkbottles.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.second{
+    background-image: url('images/desktop/image-gallery-orange.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.third{
+    background-image: url('images/desktop/image-gallery-cone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.fourth{
+    background-image: url('images/desktop/image-gallery-sugarcubes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.footer{
+    width: 100%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #90D4C5;
+    padding: 30px 0;
+}
+.box h1{
+    color: #2B7262;
+    font-weight: bolder;
+    margin: 30px 0;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons a{
+    text-decoration: none;
+}
+.icons a li{
+    list-style: none;
+    margin: 0 20px;
+    color: #2B7262;
+
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2B7262;
+}
+.social-icons .fa-brands{
+    margin: 0 10px;
+    color: #2B7262;
+
+}
+
+
+@media screen and (max-width:991px){
+    
+    .container-fluid .row .text{
+        padding: 60px;
+        text-align: center;
+    }
+    .section2 .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .testimonial{
+        margin: 80px 0;
+    }
+    
+}
